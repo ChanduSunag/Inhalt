@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BatchSuite" duration-ms="113294" started-at="2022-07-14T20:47:11 IST" finished-at="2022-07-14T20:49:04 IST">
+    <groups>
+      <group name="Regression Test">
+        <method signature="CampaignTest.CreateCampaignWithProductTest()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="CreateCampaignWithProductTest" class="com.crm.myriad.campaignTest.CampaignTest"/>
+        <method signature="ContactTest.CreateAndDeleteContactTest()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="CreateAndDeleteContactTest" class="com.crm.myriad.contactTest.ContactTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="CampaignTest.CreateCampaignTest()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="CreateCampaignTest" class="com.crm.myriad.campaignTest.CampaignTest"/>
+        <method signature="ContactTest.CreateContactTest()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="CreateContactTest" class="com.crm.myriad.contactTest.ContactTest"/>
+        <method signature="OrganizationTest.CreateOrganizationTest()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="CreateOrganizationTest" class="com.crm.myriad.organizationTest.OrganizationTest"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Test" duration-ms="113294" started-at="2022-07-14T20:47:11 IST" finished-at="2022-07-14T20:49:04 IST">
+      <class name="com.crm.myriad.organizationTest.OrganizationTest">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="LaunchTheBrowser" is-config="true" duration-ms="1436" started-at="2022-07-14T20:47:57 IST" finished-at="2022-07-14T20:47:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="LoginToApp" is-config="true" duration-ms="4349" started-at="2022-07-14T20:47:58 IST" finished-at="2022-07-14T20:48:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="CreateOrganizationTest()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="CreateOrganizationTest" duration-ms="10992" started-at="2022-07-14T20:48:02 IST" finished-at="2022-07-14T20:48:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTest -->
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="LogoutFromApp" is-config="true" duration-ms="1749" started-at="2022-07-14T20:48:13 IST" finished-at="2022-07-14T20:48:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="CloseTheBrowser()[pri:0, instance:com.crm.myriad.organizationTest.OrganizationTest@12cdcf4]" name="CloseTheBrowser" is-config="true" duration-ms="99" started-at="2022-07-14T20:48:15 IST" finished-at="2022-07-14T20:48:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- com.crm.myriad.organizationTest.OrganizationTest -->
+      <class name="com.crm.myriad.contactTest.ContactTest">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="LaunchTheBrowser" is-config="true" duration-ms="2318" started-at="2022-07-14T20:47:11 IST" finished-at="2022-07-14T20:47:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="LoginToApp" is-config="true" duration-ms="4377" started-at="2022-07-14T20:47:13 IST" finished-at="2022-07-14T20:47:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="CreateAndDeleteContactTest()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="CreateAndDeleteContactTest" duration-ms="15865" started-at="2022-07-14T20:47:18 IST" finished-at="2022-07-14T20:47:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAndDeleteContactTest -->
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="LogoutFromApp" is-config="true" duration-ms="1978" started-at="2022-07-14T20:47:34 IST" finished-at="2022-07-14T20:47:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="LoginToApp" is-config="true" duration-ms="4342" started-at="2022-07-14T20:47:36 IST" finished-at="2022-07-14T20:47:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="CreateContactTest()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="CreateContactTest" duration-ms="14429" started-at="2022-07-14T20:47:40 IST" finished-at="2022-07-14T20:47:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="LogoutFromApp" is-config="true" duration-ms="2019" started-at="2022-07-14T20:47:54 IST" finished-at="2022-07-14T20:47:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="CloseTheBrowser()[pri:0, instance:com.crm.myriad.contactTest.ContactTest@45820e51]" name="CloseTheBrowser" is-config="true" duration-ms="103" started-at="2022-07-14T20:47:56 IST" finished-at="2022-07-14T20:47:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- com.crm.myriad.contactTest.ContactTest -->
+      <class name="com.crm.myriad.campaignTest.CampaignTest">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="LaunchTheBrowser" is-config="true" duration-ms="1472" started-at="2022-07-14T20:48:15 IST" finished-at="2022-07-14T20:48:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="LoginToApp" is-config="true" duration-ms="4338" started-at="2022-07-14T20:48:17 IST" finished-at="2022-07-14T20:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="CreateCampaignTest()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="CreateCampaignTest" duration-ms="9904" started-at="2022-07-14T20:48:21 IST" finished-at="2022-07-14T20:48:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="LogoutFromApp" is-config="true" duration-ms="1265" started-at="2022-07-14T20:48:31 IST" finished-at="2022-07-14T20:48:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="LoginToApp()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="LoginToApp" is-config="true" duration-ms="4297" started-at="2022-07-14T20:48:32 IST" finished-at="2022-07-14T20:48:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApp -->
+        <test-method status="PASS" signature="CreateCampaignWithProductTest()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="CreateCampaignWithProductTest" duration-ms="25754" started-at="2022-07-14T20:48:36 IST" finished-at="2022-07-14T20:49:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWithProductTest -->
+        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="LogoutFromApp" is-config="true" duration-ms="2062" started-at="2022-07-14T20:49:02 IST" finished-at="2022-07-14T20:49:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method status="PASS" signature="CloseTheBrowser()[pri:0, instance:com.crm.myriad.campaignTest.CampaignTest@5bcea91b]" name="CloseTheBrowser" is-config="true" duration-ms="89" started-at="2022-07-14T20:49:04 IST" finished-at="2022-07-14T20:49:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- com.crm.myriad.campaignTest.CampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- BatchSuite -->
+</testng-results>

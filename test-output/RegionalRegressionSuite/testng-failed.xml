@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegionalRegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.myriad.campaignTest.CampaignTest">
+        <methods>
+          <include name="CreateCampaignWithProductTest"/>
+          <include name="LoginToApp"/>
+          <include name="CloseTheBrowser"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="LogoutFromApp"/>
+        </methods>
+      </class> <!-- com.crm.myriad.campaignTest.CampaignTest -->
+      <class name="com.crm.myriad.contactTest.ContactTest">
+        <methods>
+          <include name="LoginToApp"/>
+          <include name="CloseTheBrowser"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="CreateContactTest"/>
+          <include name="LogoutFromApp"/>
+        </methods>
+      </class> <!-- com.crm.myriad.contactTest.ContactTest -->
+      <class name="com.crm.myriad.organizationTest.OrganizationTest">
+        <methods>
+          <include name="LoginToApp"/>
+          <include name="CloseTheBrowser"/>
+          <include name="CreateOrganizationTest"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="LogoutFromApp"/>
+        </methods>
+      </class> <!-- com.crm.myriad.organizationTest.OrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegionalRegressionSuite] -->
