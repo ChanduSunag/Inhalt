@@ -66,7 +66,6 @@ public class CampaignTest extends BaseClass{
 		cp.getCreateButton().click();
 		String cmpName = eLib.getStringDataFromExcel("CampaignData", 1, 0);
 		cncp.getCampNameField().sendKeys(cmpName+randomNum);
-
 		cncp.getAddProcduct().click();
 		String parentWindow = driver.getTitle();
 

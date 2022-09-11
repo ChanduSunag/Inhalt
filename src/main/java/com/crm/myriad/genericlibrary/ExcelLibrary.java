@@ -29,13 +29,12 @@ public class ExcelLibrary implements IConstantLibrary {
 	{
 		FileInputStream fis  = new FileInputStream(EXCELPATH);
 		Workbook wb = WorkbookFactory.create(fis);
-		Sheet sh = wb.getSheet(sheetName);
-		Row row = sh.getRow(rowNum);
-		String data = row.getCell(cellNum).getStringCellValue();
+		String data = wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
 		wb.close();
 		return data;
 	}
 
+	
 	/**
 	 * it's used to read the data from excel sheet
 	 * @param sheetName
